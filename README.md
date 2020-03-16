@@ -6,7 +6,7 @@ The dataset is available in both an .xlxs and .csv format. There are two tables,
 
 Naming for the files should be as follows:
 
-          year\_datasettype
+          year_datasettype
 
   Where _year_ is the year of the data being reported, and
 
