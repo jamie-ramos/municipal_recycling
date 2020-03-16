@@ -7,7 +7,7 @@ The dataset is available in both an .xlxs and .csv format. There are two tables,
 ## Table of Contents
 
 - [Naming](#naming)
-- [Data Dictionary](#data dictionary)
+- [Data Dictionary](#datadictionary)
 - [Security](#security)
 - [Contact](#contact)
 
