@@ -1,9 +1,19 @@
-**Readme**
+# Readme
 
 This dataset was created for a course at the iSchool at the University of Washington in the winter of 2020. It is a breakdown of sizes, recycling rates, and diversion rates and costs for the cities of Palo Alto, San Francisco, and Seattle. The intended audience is municipal policymakers. It is freely available to the public.
 
 The dataset is available in both an .xlxs and .csv format. There are two tables, one with the raw data and one with the z-scores of the data. Z-scores were used for normalization to indicate the distance from the arithmetic mean in standard deviations, therefore helping to identify programs that are over or under performing compared to the average (especially once the dataset expands to more municipalities). There are no duplicate variables, and all fields have been filled; no cleaning should be necessary.
 
+## Table of Contents
+
+- [Naming](#naming)
+- [Data Dictionary](#data dictionary)
+- [Security](#security)
+- [Contact](#contact)
+
+
+
+## Naming
 Naming for the files should be as follows:
 
           year_datasettype
@@ -15,7 +25,7 @@ Naming for the files should be as follows:
 This naming convention originally contained a third value for municipalities, indicating which municipalities are included. However, due to the possibility of a future expansion of municipal scope, this was not chosen for the final naming convention. **Instead, each year should update the metadata**  **keyword**  **and**  **description**  **attributes according to any added city programs.**
 
 
-**Data Dictionary**
+## Data Dictionary
 
 
 | **Variable** | **Variable Name** | **Measurement Unit** | **Allowed Values** | **Definition** |
@@ -35,3 +45,12 @@ This naming convention originally contained a third value for municipalities, in
 | **zdiversion\_Rate** | ZScore of Diversion Rate | Numerical | Any number | ZScore of total percentage of diverted landfill materials in 2017, pulled directly from report |
 | **zpopulation** | ZScore of Population Size | Numerical | Any number | ZScore of population size in people (Census) |
 | **zarea** | ZScore of Area | Numerical | Any number | ZScore of area of city in miles squared (Census) |
+
+
+## Security
+
+These data are freely available to the public.
+
+## Contact
+Jamie Ramos
+jamiemramos18@gmail.com
