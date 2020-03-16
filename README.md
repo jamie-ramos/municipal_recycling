@@ -28,7 +28,7 @@ This naming convention originally contained a third value for municipalities, in
 | **diversion\_Rate** | Diversion Rate | Numerical | Numbers between 0-100 (percentage) | Total percentage of diverted landfill materials in 2017, pulled directly from report |
 | **population** | Population Size | Numerical | Integers greater than 0 | Population size in people (Census) |
 | **area** | Area | Numerical | Numbers greater than 0 (miles squared) | Area of city in miles squared (Census)  |
-| **zmetal****  ** | ZScore of Metal Tonnage | Numerical | Any number | ZScore of total tonnage of metal recycled in 2017 (from city reports), different metal types added into single value |
+| **zmetal** | ZScore of Metal Tonnage | Numerical | Any number | ZScore of total tonnage of metal recycled in 2017 (from city reports), different metal types added into single value |
 | **zpaper** | ZScore of Paper Tonnage | Numerical | Any number | ZScore of total tonnage of paper recycled in 2017 (from city reports), different paper types added into single value |
 | **zplastic** | ZScore of Plastic Tonnage | Numerical | Any number | ZScore of total tonnage of plastic recycled in 2017 (from city reports), different plastic types added into single value |
 | **zaverage\_Cost** | ZScore of Average Cost per Ton | Numerical | Any number | ZScore of averaged cost of recycling a ton of materials in USD in 2017 (from city reports) |
