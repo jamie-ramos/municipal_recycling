@@ -1,12 +1,16 @@
+**Readme**
+
+This dataset was created for a course at the iSchool at the University of Washington in the winter of 2020. It is a breakdown of sizes, recycling rates, and diversion rates and costs for the cities of Palo Alto, San Francisco, and Seattle. The intended audience is municipal policymakers. It is freely available to the public.
+
 The dataset is available in both an .xlxs and .csv format. There are two tables, one with the raw data and one with the z-scores of the data. Z-scores were used for normalization to indicate the distance from the arithmetic mean in standard deviations, therefore helping to identify programs that are over or under performing compared to the average (especially once the dataset expands to more municipalities). There are no duplicate variables, and all fields have been filled; no cleaning should be necessary.
 
 Naming for the files should be as follows:
 
-year\_datasettype
+          year\_datasettype
 
-Where _year_ is the year of the data being reported, and
+  Where _year_ is the year of the data being reported, and
 
-where _datasettype_ indicates whether it is the raw data (&quot;raw&quot;) or the normalized data (&quot;normal&quot;).
+  where _datasettype_ indicates whether it is the raw data (&quot;raw&quot;) or the normalized data (&quot;normal&quot;).
 
 This naming convention originally contained a third value for municipalities, indicating which municipalities are included. However, due to the possibility of a future expansion of municipal scope, this was not chosen for the final naming convention. **Instead, each year should update the metadata**  **keyword**  **and**  **description**  **attributes according to any added city programs.**
 
